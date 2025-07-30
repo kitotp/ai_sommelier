@@ -1,3 +1,4 @@
+import ExamplePairing from "./ExamplePairing"
 import HeroSection from "./HeroSection"
 import HowItWorks from "./HowItWorks"
 
@@ -6,7 +7,7 @@ const HomePage = () => {
         <div>
             <HeroSection />
             <HowItWorks />
-
+            <ExamplePairing />
         </div>
     )
 }
